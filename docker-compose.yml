@@ -12,3 +12,5 @@ services:
     environment:
       - PYTHONUNBUFFERED=1
       - MODE
+      - JWT_SECRET
+      - API_KEY
